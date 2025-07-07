@@ -1,59 +1,7 @@
-# Core AI and NLP
-openai
-transformers
-sentence-transformers
-langchain
-chromadb
-
-# Voice & Audio
-SpeechRecognition
-pyttsx3
-gTTS
-pyaudio
-sounddevice
-whisper
-
-# Automation & Task Handling
-pyautogui
-pygetwindow
-keyboard
-schedule
-n8n-python
-
-# Web Browsing & API
-requests
-beautifulsoup4
-selenium
-openai-whisper
-duckduckgo-search
-
-# File I/O and Utilities
-watchdog
-python-dotenv
+numpy
 pandas
-psutil
-PyPDF2
-docx
-
-# GUI and Interaction
-tkinter
-gradio
-streamlit
-
-# Memory and Local DB
-tinydb
-sqlite3
-
-# Chrome Extensions & Integration (Optional in future)
-pychrome
-pyppeteer
-
-# Backend APIs (Optional for cloud or mobile control)
-fastapi
-uvicorn
-
-# Development & CI/CD
-pytest
-black
-pre-commit
-docker
+pytorch
+transformers
+scikit-learn
+torchvision
+matplotlib
