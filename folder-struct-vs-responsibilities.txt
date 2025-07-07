@@ -1,0 +1,17 @@
+JARVIS/
+├── main.py                # Entry point: start the assistant loop
+│
+├── assistant/
+│   ├── voice_engine.py    # Voice capture & TTS
+│   ├── command_parser.py  # Turn text input into actionable commands
+│   ├── memory.py          # Save & retrieve past queries
+│   ├── web_search.py      # (Later) search the web
+│   ├── scheduler.py       # (Later) task scheduling
+│   └── file_manager.py    # (Later) file operations
+│
+├── interfaces/            # Optional GUI or API endpoints
+├── automation/            # (Later) workflow automation
+├── data/                  # Store logs, memory DB
+├── scripts/               # Bash or batch startup helpers
+├── docker/                # Docker configs
+└── tests/                 # Unit tests
