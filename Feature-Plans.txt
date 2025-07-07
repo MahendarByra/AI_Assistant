@@ -1,0 +1,30 @@
+### 🛠️ Feature Breakdown + Free Tools to Use
+
+| Feature | Tools / Libraries |
+|--------|--------------------|
+| **Voice & Text Command** | `SpeechRecognition`, `pyttsx3`, `whisper`, `gTTS`, `sounddevice` |
+| **Application Control** | `pyautogui`, `keyboard`, `pygetwindow`, `psutil` |
+| **Internet Access / Search** | `duckduckgo-search`, `requests`, `beautifulsoup4`, `selenium` |
+| **Output Formats** | `gTTS` for audio, `PIL`/`matplotlib` for images, `OpenCV`/`ffmpeg` for videos |
+| **File Operations** | `os`, `watchdog`, `PyPDF2`, `docx`, `shutil`, `pandas` |
+| **Memory & Context** | `tinydb`, `sqlite3`, `ChromaDB`, `langchain`, `sentence-transformers` |
+| **Task Automation** | `schedule`, `n8n-python`, `cron`, `threading` |
+| **Email & Messaging** | `smtplib`, `email`, `twilio` (for SMS/WhatsApp), Gmail APIs |
+| **Pipelines/Integration** | `n8n`, `n8n-python`, or `Node-RED` for visual workflows |
+| **Hotword Detection ("Hi Jarvis")** | `snowboy` (deprecated but workable), `Vosk`, `Picovoice Porcupine` (free tier) |
+| **GUI/UX (Optional)** | `Streamlit`, `Gradio`, `Tkinter`, `Electron` (JS) |
+| **CI/CD** | `GitHub Actions`, `Docker`, `pytest`, `black`, `pre-commit` |
+
+---
+
+### ⏱️ High-Level Development Plan (6 Months)
+
+| Month | Milestone |
+|-------|-----------|
+| Month 1 | Setup voice/text input pipeline, command parser, and simple response system |
+| Month 2 | Add file access, application control, internet search |
+| Month 3 | Add persistent memory, scheduling, and automation features |
+| Month 4 | Integrate email/sms API, UI (Gradio/Streamlit), output formats |
+| Month 5 | Build task pipelines with n8n or alternatives, test multiple workflows |
+| Month 6 | Add wake word listener, persistent background agent, Docker + CI/CD + GitHub |
+
