@@ -5,6 +5,5 @@ torchvision
 matplotlib
 SpeechRecognition
 pyttsx3
-pyaudio
 tinydb
 pytest
